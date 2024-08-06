@@ -1,0 +1,266 @@
+*{
+    text-decoration: none;
+}
+body{
+    margin: 0%;
+    overflow-x: hidden;
+
+}
+.top-head{
+    padding: 6px;
+}
+
+.top-head:hover{
+    font-size: 1.0em;
+    color: black;
+    
+
+}
+.top-head{
+    width: 100%;
+    height: 38px;
+    background-color: lightgray;
+    text-align: right;
+}
+.head{
+    display: flex
+}
+.image{
+    margin-left: 44px;
+    width: 151px;
+    height: 75px;
+    float: left;
+    margin-top: 8px;
+}   
+.fa-magnifying-glass{
+    margin-top: 39px;
+    margin-left: -28px;
+
+}
+
+
+.text {
+    margin-left: 68px;
+    margin-top: 29px;
+    width: 643px;
+    height: 28px;
+    border: solid;
+    border-radius: 11px;
+    float: left;
+
+}
+
+.fa-user{
+    padding: 10px;
+    margin-left: 178px;
+    
+}
+.sign-in{
+    display: flex;
+    align-items: center;
+    margin-bottom: -20PX;
+    margin-left: 20px
+    margin
+    
+
+}
+.fa-location-dot{
+    padding: 40px;
+}
+.sign-in h3{
+    margin-left: 69px;
+}
+
+.nav1{
+    list-style-type: none;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden; 
+    margin-left: 13px;
+    font-size: 25px;
+}
+.nav1 a{
+    color: grey;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.nav1 a:hover{
+    
+    color: rgb(76, 74, 74);
+}
+.nav1 li{
+    float: left;
+}
+
+.navbar{
+    display: flex;
+
+    
+}
+.left-side{
+    width: 60%;
+}
+
+
+.nav2{
+    list-style-type: none;
+    
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+.nav2 a{
+    color: grey;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.nav2 a:hover{
+    
+    color: rgb(76, 74, 74);
+    text-decoration: underline red;
+    
+}
+.game{
+    display: flex;
+    margin-left: 218px;
+    font-size: 24px;
+}
+
+.img{
+    width: 100%;
+    height: 549px;
+}
+.main1{
+    position: relative;
+    display: inline-block;
+}
+.text-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em; 
+}
+.text-container h1{
+    margin-left: -279px;
+    margin-top: 500px;
+}
+.button{
+    font-size: 25px;
+    width: 210px;
+    height: 46px;
+    border: solid;
+    margin-left: -243px;
+    color: black;
+    background-color: white;
+    
+}
+.button:hover{
+    background-color: black;
+    font-size: 1.1em;
+    color:white;
+    
+}
+.button a:hover{
+    color: white;
+}
+.explore{
+    font-size: 27px;
+}
+.main.icon{
+    display: flex;
+    text-decoration: none;
+    
+
+}
+.icon-div ul{
+    display: flex;
+    gap: 148px;
+    list-style: none;
+}
+.section1{
+
+    font-size: 27px;
+}
+.section1 h6{
+    margin-top: -24px;
+    margin-left: 16px;
+}
+.gallery{
+    display: inline-block;
+    border: 1px solid hsl(0, 0%, 60%);
+    margin: 5px;
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+.gallery:hover{
+    border: 1px solid hsl(0,0%,20%);
+}
+.gallery img{
+    width: 488px;
+    height: 300px;
+}
+.range{
+    font-size: 46px;
+}
+.range .product{
+    margin-top: -19px;
+    margin-left: 18px;
+}
+.our-range{
+    background-color: rgb(230, 223, 223);
+}
+
+footer{
+    width: 100%;
+    padding: 30px 0 0 20px;
+    background: #c4cde7;
+}
+
+footer .footer_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+footer .footer_main .footer_tag{
+    text-align: center;
+}
+
+footer .footer_main .footer_tag h2{
+    color: #000;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+footer .footer_main .footer_tag p{
+    margin: 10px 0;
+}
+
+footer .footer_main .footer_tag i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+
+footer .end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+
+
+
